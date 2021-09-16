@@ -9,7 +9,9 @@
 <body>
     <section class="container" id="root">
 
-        <h1>{{saluto}}</h1>
+        <input type="text" v-model="saluto">
+
+        <h1 style="font-size: 100px;">{{saluto}}</h1>
 
         <img :src="image.url" :alt="image.alt">
 
